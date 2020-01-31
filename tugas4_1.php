@@ -5,8 +5,9 @@ echo "Keuntungan = Rp 300 <br>";
 echo "Berapa Jumlah Kambing yang dibeli ? <br>";
 echo "Jawaban : ";
 
-$x = 150000;
-$y = 12.5;
+$w = 300;
+$x = 8000;
+$y = 7500;
 
-$z = $x + ($x * $y / 100);
-echo "Rp $z";
+$z = round(($x - $y) / $w);
+echo "$z ekor";
